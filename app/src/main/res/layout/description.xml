@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/infos"
+    android:background="#EDEF71">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="match_parent">
+        <ImageView
+            android:contentDescription="row"
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/human" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:text="text"
+            android:textSize="20sp"
+            android:textColor="#2B8DD8" >
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="10dp"
+        android:text="description"
+        android:textSize="26sp"
+        android:textColor="#2B8DD8">
+    </TextView>
+
+
+</LinearLayout>
+
