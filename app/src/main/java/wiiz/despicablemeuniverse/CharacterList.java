@@ -11,28 +11,27 @@ import android.widget.TextView;
 
 public class CharacterList extends BaseAdapter {
 
+    // Arrays Images
     private Integer[] array_img = { R.drawable.minions1};
-
     private Integer[] array_img_humans = {
             R.drawable.gru, R.drawable.lucy,
             R.drawable.agnes};
-
     private Integer[] array_img_yellow_minions = {
             R.drawable.dave, R.drawable.stuart,
             R.drawable.tim};
-
     private Integer[] array_img_purple_minions = {
             R.drawable.purple};
-
     private Integer[] array_img_animals = {
             R.drawable.animal, R.drawable.unicorn};
 
+    // Arrays Names
     String[] array_name = new String[] { "Name"};
     String[] array_name_humans = new String[] { "Gru", "Lucy", "Agnes"};
     String[] array_name_yellow = new String[] { "Dave", "Stuart", "Tim"};
     String[] array_name_purple = new String[] { "Evil Minions"};
     String[] array_name_animals = new String[] { "Kyle", "Fluffy Unicorn"};
 
+    // Set images and names
     public void setArray(int position) {
         if (position == 0) {
             array_img = array_img_humans;
@@ -56,7 +55,6 @@ public class CharacterList extends BaseAdapter {
     public long getItemId(int position) {
         return array_img[position];
     }
-
 
     @Override
     public Object getItem(int position) {

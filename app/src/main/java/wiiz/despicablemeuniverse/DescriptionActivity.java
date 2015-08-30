@@ -11,25 +11,25 @@ public class DescriptionActivity extends Activity {
     int positionParent;
     int positionChild;
 
+    // Arrays Images
     private Integer[] array_img = { R.drawable.minions1};
 
     private Integer[] array_img_humans = {
             R.drawable.gru, R.drawable.lucy,
             R.drawable.agnes};
-
     private Integer[] array_img_yellow = {
             R.drawable.dave, R.drawable.stuart,
             R.drawable.tim};
-
     private Integer[] array_img_purple = {
             R.drawable.purple};
-
     private Integer[] array_img_animals = {
             R.drawable.animal, R.drawable.unicorn};
 
+    // Default Array name / dec
     String[] array_name = new String[] { "Name"};
     String[] array_desc = new String[] { "Description"};
 
+    // Arrays of names
     String[] array_name_humans = new String[] {
             "NAME: Gru\nEYES: Blue\nSPOUSE: Lucy Wilde\nOCCUPATION: Supervillain (formerly),Jelly manufacturer (formerly)",
             "NAME: Lucy\nEYES: Green\nSPOUSE: Felonius Gru \nOCCUPATION: Agent at the Anti-Villain League",
@@ -45,6 +45,7 @@ public class DescriptionActivity extends Activity {
             "NAME: Kyle\nOCCUPATION: Gru's (and later Agnes') Pet",
             "NAME: Fluffy Unicorn\nTYPE: Stuffed toy\nOTHER: Won from Space Killer"};
 
+    // Arrays of desc
     String[] array_desc_humans = new String[] {
             "Felonius Gru, often referred to by his surname Gru, was a supervillain and jelly manufacturer," +
                     " and is now a consultant for the Anti-Villain League.",
@@ -91,7 +92,7 @@ public class DescriptionActivity extends Activity {
         TextView description = (TextView) view.findViewById(R.id.description);
         ImageView image = (ImageView) view.findViewById(R.id.image);
 
-
+        // Set values to views
         if (positionParent == 0) {
             image.setImageResource(array_img_humans[positionChild]);
             name.setText(array_name_humans[positionChild]);

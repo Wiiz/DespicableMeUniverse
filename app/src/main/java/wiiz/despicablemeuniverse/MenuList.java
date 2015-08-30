@@ -11,10 +11,12 @@ import android.widget.TextView;
 
 public class MenuList extends BaseAdapter {
 
+    // Array image
     private Integer[] array_img_menu = {
             R.drawable.human, R.drawable.minions1,
             R.drawable.evil, R.drawable.animal};
 
+    // Array titles
     String[] values = new String[] { "Humans", "Minions", "Evil Minions",
             "Animals" };
 
@@ -44,8 +46,8 @@ public class MenuList extends BaseAdapter {
         TextView textView = (TextView) rowView.findViewById(R.id.label);
         ImageView imageView = (ImageView) rowView.findViewById(R.id.icon);
 
+        // Set values to views
         textView.setText(values[position]);
-
         imageView.setImageResource(array_img_menu[position]);
 
         return rowView;

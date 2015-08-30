@@ -10,6 +10,7 @@ public class CharacterActivity extends ListActivity {
     int position;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // Create new Bundle
         Bundle objectBundle = this.getIntent().getExtras();
         if(objectBundle != null) {
             position = objectBundle.getInt("positionParent");
@@ -29,6 +30,7 @@ public class CharacterActivity extends ListActivity {
         }
 
         Intent intent = new Intent(CharacterActivity.this,DescriptionActivity.class);
+        // Put infos in Bundle
         Bundle bundle = new Bundle();
         bundle.putInt("positionParent", positionParent);
         bundle.putInt("positionChild", position);

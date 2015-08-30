@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/wildine/AndroidStudioProjects/DespicableMeUniverse/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="/Users/wildine/DespicableMeUniverse/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/wildine/AndroidStudioProjects/DespicableMeUniverse/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-fef317ad23c11bfbd99f5047e40b94a5c09b318f.jar" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/wildine/DespicableMeUniverse/app/build/intermediates/pre-dexed/debug/classes-ff0f44c4f61973ec5cf5f8f8633629c8729b71ba.jar" />
     </item>
     <item
         jar="/Users/wildine/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
@@ -16,6 +16,13 @@
         <dex dex="/Users/wildine/AndroidStudioProjects/DespicableMeUniverse/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-ca6bed0f6ecc49ac052ec5bd73f2fcfd26385afa.jar" />
     </item>
     <item
+        jar="/Users/wildine/AndroidStudioProjects/DespicableMeUniverse/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/wildine/AndroidStudioProjects/DespicableMeUniverse/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-fef317ad23c11bfbd99f5047e40b94a5c09b318f.jar" />
+    </item>
+    <item
         jar="/Users/wildine/AndroidStudioProjects/DespicableMeUniverse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -23,11 +30,25 @@
         <dex dex="/Users/wildine/AndroidStudioProjects/DespicableMeUniverse/app/build/intermediates/pre-dexed/debug/classes-2392639fc4b21aa644348908524f6dfc492887c1.jar" />
     </item>
     <item
+        jar="/Users/wildine/DespicableMeUniverse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/wildine/DespicableMeUniverse/app/build/intermediates/pre-dexed/debug/classes-f8c164758d9daaa60e3883e9a27da8b5c91c2ae5.jar" />
+    </item>
+    <item
         jar="/Users/wildine/AndroidStudioProjects/DespicableMeUniverse/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
         <dex dex="/Users/wildine/AndroidStudioProjects/DespicableMeUniverse/app/build/intermediates/pre-dexed/debug/classes-12fb4e7e66774148dc6811fed6bc031ac9aabd43.jar" />
+    </item>
+    <item
+        jar="/Users/wildine/DespicableMeUniverse/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/wildine/DespicableMeUniverse/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-ff94ee789576a083780f5f180902f460cefa9db9.jar" />
     </item>
 
 </items>
